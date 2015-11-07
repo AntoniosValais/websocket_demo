@@ -35,7 +35,7 @@ public class EchoServer
     @OnOpen
     public void onOpen(Session session)
     {
-        System.out.println(session.getId() + " has opened a connection");
+        System.out.println(session.getId() + " has opened a connection!");
         try
         {
             clients.add( session );
